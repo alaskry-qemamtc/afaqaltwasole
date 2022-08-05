@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .bar{
     display: flex;
@@ -28,8 +29,21 @@
     }
     .num{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         a{
             text-decoration: none;
+            text-align: center;
+            color: #000;
+            &:hover{
+                text-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+            }
+        }
+        img{
+            width: 20px;
+            margin: 5px;
         }
 
     }
@@ -47,6 +61,10 @@ nav{
                 background-image: linear-gradient(to right, #1E90FF , #00BFFF);
                 border-radius: 10px 30px 10px 10px;
                 box-shadow: 4px 5px 5px gray;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
             }
 
         }
@@ -69,10 +87,21 @@ nav{
         margin: 6px;
     }
 }
+.prodacts{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    h2{
+        color: #000;
+        text-transform: capitalize;
+
+    }    
+}
 .pics{
     .pic{
         img{
             width: 100%;
+            border: 1px solid gray;
         }
     }
 }
@@ -81,3 +110,20 @@ footer{
         width: 100%;
     }
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #23a3c8;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+} 

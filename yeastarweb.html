@@ -11,14 +11,14 @@
 <body>
     <div class="bar">
         <div class="logo"><a href="#"><img src="yeastarpic/qemam_logo.png" alt=""></a></div>
-        <div class="num"><a href="https://wa.me/966501695636?text=Hello">0501695636</a></div>
+        <div class="num"><a href="https://wa.me/966501695636?text=Hello">0501695636</a><img src="whatsapp.webp" alt=""></div>
     </div>
     <hr>
     <nav>
         <ul>
-            <li>main</li>
-            <li>prodact</li>
-            <li>about</li>
+            <li><a href="index.html">main</a></li>
+            <li><a href="#prodacts">prodact</a></li>
+            <li><a href="#about">about</a></li>
         </ul>
     </nav>
     <div class="heading"><img src="yeastarpic/10.png" alt=""></div>
@@ -43,6 +43,7 @@
             
             UC Clients/Presence & IM/Operator Panel/Contacts Directory/Remote Working/Integrated System</p>
     </div>
+    <div class="prodacts" id="prodacts"><h2>prodacts</h2></div>
     <div class="pics">
         <div class="pic"><img src="yeastarpic/1.jpg" alt=""></div>
         <div class="pic"><img src="yeastarpic/2.jpg" alt=""></div>
@@ -69,9 +70,31 @@
         <div class="pic"><img src="yeastarpic/22.jpg" alt=""></div>
         <div class="pic"><img src="yeastarpic/23.jpg" alt=""></div>
     </div>
-    <footer>
+    <footer id="about">
         <img src="yeastarpic/footerdis.png" alt="">
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#94</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>    
     
 </body>
 </html>
