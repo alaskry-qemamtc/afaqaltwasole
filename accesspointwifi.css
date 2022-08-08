@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1E90FF), to(#00BFFF));
+  background-image: linear-gradient(to right, #1E90FF, #00BFFF);
+}
+
+.bar .logo {
+  width: 50%;
+}
+
+.bar .logo a {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.bar .logo a img {
+  width: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.bar .num {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar .num a {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+
+.bar .num a:hover {
+  text-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+}
+
+.bar .num img {
+  width: 20px;
+  margin: 5px;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1E90FF), to(#00BFFF));
+  background-image: linear-gradient(to right, #1E90FF, #00BFFF);
+  border-radius: 10px 30px 10px 10px;
+  -webkit-box-shadow: 4px 5px 5px gray;
+          box-shadow: 4px 5px 5px gray;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.heading {
+  width: 100%;
+}
+
+.heading img {
+  width: 100%;
+}
+
+.description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.description h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.description p {
+  margin: 6px;
+  text-align: center;
+}
+
+.description a {
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  color: #03e9f4;
+}
+
+.description a:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1E90FF), to(#00BFFF));
+  background-image: linear-gradient(to right, #1E90FF, #00BFFF);
+  border-radius: 10px 30px 10px 10px;
+  -webkit-box-shadow: 4px 5px 5px gray;
+          box-shadow: 4px 5px 5px gray;
+}
+
+.prodacts {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.prodacts h2 {
+  color: #000;
+  text-transform: capitalize;
+}
+
+.pics .pic img {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+footer img {
+  width: 100%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #23a3c8;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=accesspointwifi.css.map */
