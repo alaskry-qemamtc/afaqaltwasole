@@ -97,11 +97,16 @@ nav{
     }    
 }
 .pics{
+    text-align: center;
     .pic{
         img{
             width: 100%;
             border: 1px solid gray;
         }
+    }
+    a{
+        text-decoration: none;
+        color: #23a3c8;
     }
 }
 footer{
