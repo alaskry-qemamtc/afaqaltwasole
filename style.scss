@@ -34,25 +34,26 @@ header{
         justify-content: space-around;
         align-items: center;
         text-align: center;
-
-
         .logoleft{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 5PX;
             a{
                 text-decoration: none;
                 font-size: 0.9rem;
-                img{
-                    width: 150px;
-                    height: 70px;
-                }
             }
-
-
+            img{
+                width: 20px;
+                margin: 5px;
+            }
         }
         .logoright{
             a{
                 img{
+                    padding-top: 5px;
                     width: 150px ;
-                    height: 70px;
                 }
             }
 
