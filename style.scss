@@ -84,7 +84,7 @@ header{
                 &:hover{
                     background-color: #6dbe0a;
                     color: #fff;
-                    border-top-left-radius: 25px;
+                    border-top-left-radius: 20px;
                     border-top-right-radius: 10px; 
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);                 
 
@@ -271,6 +271,7 @@ h2{
         a{
             text-decoration: none;
             display: contents;
+            color: #000;
             .srv2{
                 width: 45%;
                 margin: 5px 1px;

@@ -114,7 +114,7 @@ header ul li a {
 header ul li a:hover {
   background-color: #6dbe0a;
   color: #fff;
-  border-top-left-radius: 25px;
+  border-top-left-radius: 20px;
   border-top-right-radius: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -342,6 +342,7 @@ h2 {
 .services .our_srv a {
   text-decoration: none;
   display: contents;
+  color: #000;
 }
 
 .services .our_srv a .srv2 {
