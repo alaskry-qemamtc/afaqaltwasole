@@ -68,9 +68,9 @@
   text-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
 }
 
-.bar .num img {
+.bar .num a img {
   width: 20px;
-  margin: 5px;
+  margin: 7px 5px 0px 5px;
 }
 
 nav {
@@ -102,6 +102,7 @@ nav ul li a {
 
 .heading {
   width: 100%;
+  text-align: center;
 }
 
 .heading img {
@@ -154,7 +155,6 @@ nav ul li a {
 
 .pics .pic img {
   width: 100%;
-  border: 1px solid gray;
 }
 
 footer {
@@ -189,5 +189,12 @@ footer p {
   -webkit-transition: 1s;
   transition: 1s;
   opacity: 50%;
+}
+
+@media screen and (min-width: 820px) {
+  body :not(.full) {
+    width: 80%;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=intercom.css.map */
