@@ -4,6 +4,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Kufam', sans-serif;
+    direction: rtl;
+    font-size: 0.6rem;
+}
 .bar{
     display: flex;
     justify-content: space-between;
